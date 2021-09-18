@@ -1,0 +1,7 @@
+def list_sum(*x):
+    s = 0
+    s = sum(x)
+    print(s)
+
+
+list_sum( 50,50,50,50)

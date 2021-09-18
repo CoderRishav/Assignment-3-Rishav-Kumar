@@ -1,0 +1,16 @@
+def lowUp(str):
+    cnt1 = 0
+    cnt2 = 0
+    for letter in str:
+        letter.isupper()
+        if letter.isupper() is True:
+            
+            cnt1 +=1
+        else:
+         
+            cnt2 +=1
+            
+    print(cnt1)
+    print(cnt2)
+        
+lowUp('The quick Brow Fox')
